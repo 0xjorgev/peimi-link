@@ -11,6 +11,7 @@ const appleAppSiteAssociation = {
                     "/": "/?code",
                     "comment": "Payment link"
                 }],
+                paths: ["/link/*"]
             }
         ]
     }
