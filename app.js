@@ -6,8 +6,18 @@ const appleAppSiteAssociation = {
     applinks: {
         details: [
             {
-                appID: ["7G2PMCVCH6.io.dynamiteapps.paimi"],
-                paths: ["/link/*"]
+                appID: ["698PA5CB65.io.dynamiteapps.paimi","7G2PMCVCH6.io.dynamiteapps.paimi"],
+                components: [
+                    {
+                        "#": "no_universal_links",
+                        "exclude": true,
+                        "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+                    },
+                    {
+                        "/": "/p2p/*",
+                        "comment": "Matches any URL whose path starts with /p2p/ "
+                    }
+                ]
             }
         ]
     }
