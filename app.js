@@ -10,7 +10,7 @@ const appleAppSiteAssociation = {
                 components: [{
                     "/": "/?code",
                     "comment": "Payment link"
-                },
+                }],
             }
         ]
     }
