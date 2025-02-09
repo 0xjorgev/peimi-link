@@ -3,13 +3,11 @@ const app = express();
 
 // Define the AASA JSON structure
 const appleAppSiteAssociation = {
-    "applinks": {
-        "details": [
+    applinks: {
+        details: [
             {
-                "appID": ["7G2PMCVCH6.io.dynamiteapps.paimi"],
-                "paths": [
-                    "/link/*"
-                ]
+                appID: ["7G2PMCVCH6.io.dynamiteapps.paimi"],
+                paths: ["/link/*"]
             }
         ]
     }
