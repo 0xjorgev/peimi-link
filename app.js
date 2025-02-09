@@ -6,8 +6,11 @@ const appleAppSiteAssociation = {
     applinks: {
         details: [
             {
-                appID: ["7G2PMCVCH6.io.dynamiteapps.paimi"],
-                paths: ["/link/*"]
+                appID: ["698PA5CB65.io.dynamiteapps.paimi, 7G2PMCVCH6.io.dynamiteapps.paimi"],
+                components: [{
+                    "/": "/?code",
+                    "comment": "Payment link"
+                },
             }
         ]
     }
