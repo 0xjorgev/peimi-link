@@ -6,7 +6,7 @@ const appleAppSiteAssociation = {
     applinks: {
         details: [
             {
-                appID: ["698PA5CB65.io.dynamiteapps.paimi, 7G2PMCVCH6.io.dynamiteapps.paimi"],
+                appID: ["7G2PMCVCH6.io.dynamiteapps.paimi"],
                 paths: ["/link/*"]
             }
         ]
